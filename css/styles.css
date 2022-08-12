@@ -1,0 +1,114 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+#title{
+    padding: 3%;
+    background-color:#eb306e ;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    color:azure;
+}
+.download-btn{
+       margin:5% 3% 5% 0;
+}
+.rotate{
+    transform: rotate(20deg);
+}
+
+#features h3 {
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+#features p{
+    width: 75%;
+    margin: auto;
+    color: #8f8f8f;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+#features i{
+    
+    color: #eb306e;
+}
+#features i:hover{
+    color: rgb(182, 7, 42);
+    animation: forwards;
+}
+#testimonials{
+    background-color: #eb306e;
+    padding: 2% 3% 3% 3%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    color:azure;
+}
+#testimonials h2{
+    font-size: 2rem;
+}
+.dog-img{
+    width: 15%;
+    border-radius: 100%;
+    margin: 2rem;
+}
+#press{
+    text-align: center;
+    background-color: #eb306e;
+    padding: 2% 3% 3% 3%;
+}
+hr{
+    margin: 0;
+    border-width: 1px;
+    
+}
+.testimonial-image{
+    width: 15%;
+    margin: 2rem;
+    border-radius: 100%;
+}
+.press-logo{
+    margin: 1.5rem;
+    width: 10%;
+}
+.card{
+    margin: 3%;
+    text-align: center;
+}
+#pricing{
+    margin: 6% auto;
+}
+.btn-extra{
+    width: 100%;
+}
+#features{
+    background-color: white;
+    position: relative;
+    bottom: 100px;
+}
+/* CSS-->Media Query Breakpoints */
+@media (max-width:1000px){
+    #features{
+        background: none;
+        position: static;
+    }
+}
+@media (max-width:650px){
+    .rotate{
+        transform: none;
+    }
+}
+#cta{
+    background-color: #eb306e;
+    text-align: center;
+}
+#cta h3{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    color:azure;
+    font-size: 3.5rem;
+}
+#footer i{
+  margin: 3% 1%; 
+}
+#footer{
+    margin: 2% auto;
+}
